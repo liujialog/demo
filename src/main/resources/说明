@@ -1,0 +1,17 @@
+##这是第一次使用Git
+
+##Eclipse中忽略文件
+
+	Eclipse特定文件：
+	.classpath 文件
+	.proejct 文件
+	.setting 文件
+	
+	这些都是eclipse为了管理我们创建的工程而维护的文件，
+	和我们开发的代码没有直接关系，最好不用在Git中进行追
+	踪，也就是把他们忽略。还有target(编译后的二进制文件）
+	
+  #为什么要忽略Eclipse特定文件？
+	同一个团队中很难保证大家使用的相同的IDE工具，而IDE工具不同时，
+	相关的特定文件也不同。
+	忽略文件:  https://github.com/github/gitignore/blob/master/Java.gitignore
